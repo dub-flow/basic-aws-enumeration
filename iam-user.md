@@ -1,3 +1,5 @@
+# IAM User
+
 - `aws sts get-caller-identity` (whoami?) -> or, alternatively, `iam get-user`
 - `aws iam list-groups-for-user` (what groups am I a part of?)
 - `aws iam list-group-policies` (what policies are attached to those groups?)

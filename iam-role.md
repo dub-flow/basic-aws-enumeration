@@ -1,3 +1,5 @@
+# IAM Role
+
 - `aws iam list-role-policies` (list inline policies)
 - `aws iam get-role-policy` (get statements of an inline policy)
 - `aws iam list-attached-role-policies` (list managed policies)

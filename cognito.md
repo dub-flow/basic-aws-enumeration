@@ -1,3 +1,5 @@
+# Cognito
+
 - `aws cognito-idp get-user` - get the user’s information using their access token
 - `aws cognito-idp initiate-auth` - login
 - `aws cognito-idp sign-up` - create a new user
