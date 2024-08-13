@@ -1,2 +1,4 @@
+# Secrets Manager
+
 `aws secretsmanager list-secrets --region us-east-1` - list secrets
 `aws secretsmanager get-secret-value --secret-id <secret-arn> --query SecretString --output text --region us-east-1` - get secret value

