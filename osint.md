@@ -11,6 +11,6 @@
 
 * Find public S3 buckets via https://buckets.grayhatwarfare.com/buckets
 
-* Use tools like `cloud_enum`: `cloud_enum <keyword> -t 10` -> This looks for bucket names with the `keyword` in them
+* Use tools like `cloud_enum`: `cloud_enum -k <keyword> -t 10` -> This looks for bucket names with the `keyword` in them
 
 * Use `truffleHog` (https://github.com/trufflesecurity/truffleHog) to find leaked credentials: `docker run --rm -it -v "$PWD:/pwd" trufflesecurity/trufflehog:latest github --org=trufflesecurity`
